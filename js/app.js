@@ -30,13 +30,11 @@ $(document).ready(function(){
 		$('.ryu-ready').hide();
 		$('.ryu-still').hide();
 		$('.ryu-cool').show();
-		console.log('this is a test keydown');
 		}
 		}).keyup(function( e ){
 		if (e.which == 88){
 		$('.ryu-cool').hide();
 		$('.ryu-still').show();
-		console.log('this is a test keyup');
 		}
 	});	
 
